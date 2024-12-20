@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Soft background to match the main page */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+main{
+    /* background-image: url('bg1.jpeg');
+    background-size: cover; */
+}
+
+header {
+    background: linear-gradient(to right, #c8d8f7, #b4cdf8); /* Gradient for a modern, professional look */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: transparent; /* Clean white form */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for modern design */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Stronger shadow for focus */
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3c72; /* Main theme color for consistency */
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth interaction effects */
+}
+
+.form input:focus {
+    border-color: #2a5298; /* Highlight matches the theme */
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.3);
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #2b7e9e; /* Vibrant button color aligned with the main page */
+    color: #f1f5fd; /* Contrasting text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s; /* Smooth hover animations */
+}
+
+.submit-btn:hover {
+    background: #11677c; /* Slightly darker hover color for effect */
+    transform: translateY(-2px); /* Hover lift */
+}
+
+form a {
+    color: #2a5298; /* Main theme color for links */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s; /* Subtle hover effect */
+}
+
+form a:hover {
+    color: #ff4500; /* Bright hover effect for links */
+}

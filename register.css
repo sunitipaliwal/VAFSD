@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Matches the main page's subtle background */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #c8d8f7, #b4cdf8); /* Main page gradient */
+    color: rgb(20, 2, 2);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff; /* Clean and modern */
+    padding: 30px;
+    border-radius: 10px; /* Matches card styles on the main page */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Slightly deeper shadow for focus */
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3c72; /* Consistent header color */
+    font-size: 1.8rem;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.form input:focus {
+    border-color: #1e3c72; /* Highlight effect */
+    box-shadow: 0 0 5px rgba(30, 60, 114, 0.3); /* Matches main theme colors */
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #2b7e9e; /* Vibrant button style matching main page */
+    color: #f1f5fd;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+    background: #11677c; /* Slightly darker hover effect */
+    color: white;
+    transform: translateY(-2px); /* Subtle hover animation */
+}
+
+form a {
+    color: #2a5298; /* Link color consistent with main page */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+form a:hover {
+    color: #ff4500; /* Brighter hover effect */
+}
